@@ -23,7 +23,7 @@ Projectdetails : {type : String  , required : true  , unique : false} ,
 
 
 
-const userDatamodel = mongoose.model("userRegistrations" , userDataSchema);
+const userDatamodel = mongoose.model("userdetails" , userDataSchema);
 
 
 module.exports = { 
