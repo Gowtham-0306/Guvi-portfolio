@@ -23,7 +23,7 @@ server.get('/getuserdetails', (req, res) => {
 
   server.post('/senduserdetails', (req, res) => {
    
-   console.clear();
+
 
     try{
         const userdata =  new userDatamodel(req.body);
